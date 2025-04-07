@@ -1,0 +1,18 @@
+directories:
+  - path: sample_project
+    subdirectories:
+      - path: src
+        files:
+          - main.py
+          - utils.py
+      - path: tests
+        files:
+          - test_main.py
+      - path: docs
+        subdirectories:
+          - path: guides
+            files:
+              - setup.md
+    files:
+      - README.md
+      - config.yaml

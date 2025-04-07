@@ -1,0 +1,4 @@
+include docs/README.md
+include docs/LICENSE
+recursive-include examples *.yaml
+recursive-include docs *.md

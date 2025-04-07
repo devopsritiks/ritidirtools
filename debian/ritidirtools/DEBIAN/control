@@ -1,0 +1,13 @@
+Package: ritidirtools
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Ritik Sharma <devopsritiks@gmail.com>
+Installed-Size: 49
+Depends: python3 (>= 3.6), python3-click, python3-yaml
+Section: utils
+Priority: optional
+Homepage: https://github.com/devopsritiks/ritidirtools
+Description: A CLI tool to manage directories and files with YAML
+ ritidirtools allows users to create, modify, and destroy directory
+ structures and files using simple YAML configurations. Features
+ include state tracking, previews, and rollbacks.

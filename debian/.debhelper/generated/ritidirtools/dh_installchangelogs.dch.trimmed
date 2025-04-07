@@ -1,0 +1,6 @@
+ritidirtools (0.1.0-1) unstable; urgency=medium
+
+  * Initial release of ritidirtools.
+  * Provides CLI tool to manage directories and files with YAML.
+
+ -- Ritik Sharma <devopsritiks@gmail.com>  Mon, 07 Apr 2025 12:00:00 +0000

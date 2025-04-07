@@ -1,0 +1,15 @@
+Source: ritidirtools
+Section: utils
+Priority: optional
+Maintainer: Ritik Sharma <devopsritiks@gmail.com>
+Build-Depends: debhelper (>= 9), python3, python3-setuptools, dh-python, python3-pytest, python3-pytest-mock
+Standards-Version: 4.5.0
+Homepage: https://github.com/devopsritiks/ritidirtools
+
+Package: ritidirtools
+Architecture: all
+Depends: python3 (>= 3.6), python3-click, python3-yaml
+Description: A CLI tool to manage directories and files with YAML
+ ritidirtools allows users to create, modify, and destroy directory
+ structures and files using simple YAML configurations. Features
+ include state tracking, previews, and rollbacks.

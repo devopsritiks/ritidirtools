@@ -1,0 +1,19 @@
+files:
+  - path: sample_project/src/main.py
+    appendFile:
+      - lineNumber: 1
+        pasteContent: "import utils\n"
+      - lineNumber: 2
+        pasteContent: "print('Hello, World!')\n"
+    reWrite:
+      newContent: "# Main script\n"
+
+  - path: sample_project/tests/test_main.py
+    appendFile:
+      - deleteLines: 1_2  # Deletes lines 1-2 (if they exist)
+      - lineNumber: 1
+        pasteContent: "def test_hello():\n    assert True\n"
+
+  - path: sample_project/docs/guides/setup.md
+    reWrite:
+      newContent: "## Setup Instructions\nInstall with `pip install ritidirtools`.\n"
