@@ -1,4 +1,4 @@
-ritidirtools (0.1.0-1) unstable; urgency=medium
+ritidirtools (0.1.0-1) noble; urgency=medium
 
   * Initial release of ritidirtools.
   * Provides CLI tool to manage directories and files with YAML.
